@@ -21,13 +21,7 @@ export const Navlink: React.FC<NavlinkProps> = ({
 
   return (
     <Link {...props} passHref>
-      <a
-        className={clsx(className, "fold-bold hover:underline", {
-          "text-blue-500": isActive,
-        })}
-      >
-        {children}
-      </a>
+      <a className={clsx(className)}>{children}</a>
     </Link>
   );
 };

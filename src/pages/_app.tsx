@@ -1,8 +1,6 @@
 import { AppProps } from "next/app";
 import { Page } from "@/types/Page";
 
-import "../main.css";
-
 type MyAppProps = AppProps & {
   Component: Page;
 };

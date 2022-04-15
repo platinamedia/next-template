@@ -5,9 +5,9 @@ import Link from "next/link";
 const HomePage: Page = () => {
   return (
     <div>
-      <h1 className="text-4xl font-bold">The Next.js template</h1>
+      <h1>The Next.js template</h1>
       <Link href="https://github.com/tsivinsky/next-template" passHref>
-        <a className="text-blue-500 hover:underline text-lg">GitHub</a>
+        <a>GitHub</a>
       </Link>
     </div>
   );

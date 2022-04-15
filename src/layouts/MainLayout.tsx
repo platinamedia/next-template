@@ -3,7 +3,7 @@ import React from "react";
 
 export const MainLayout: React.FC = ({ children }) => {
   return (
-    <div className="min-h-screen">
+    <div>
       <Header />
       <main>{children}</main>
       <footer></footer>
