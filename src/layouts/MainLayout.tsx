@@ -1,7 +1,9 @@
 import { Header } from "@/components/specific/Header";
 import React from "react";
 
-export const MainLayout: React.FC = ({ children }) => {
+export const MainLayout: React.FC<React.PropsWithChildren<{}>> = ({
+  children,
+}) => {
   return (
     <div>
       <Header />

@@ -7,7 +7,7 @@ export type NavlinkProps = LinkProps & {
   className?: string;
 };
 
-export const Navlink: React.FC<NavlinkProps> = ({
+export const Navlink: React.FC<React.PropsWithChildren<NavlinkProps>> = ({
   children,
   className,
   ...props
