@@ -15,6 +15,13 @@ npx degit platinamedia/next-template ./path/to/my-app
 - husky;
 - prettier;
 
+## Рекомендации
+
+### Расширение для editorconfig
+
+- [vscode](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+- [vim](https://github.com/editorconfig/editorconfig-vim)
+
 ## Структура
 
 Исходный код идёт в [./src](./src) директории.
