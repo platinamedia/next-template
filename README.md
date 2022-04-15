@@ -27,7 +27,7 @@ yarn build
 ## Технологии
 
 - TypeScript;
-- eslint with [eslint-config-next](https://npmjs.com/package/eslint-config-next);
+- eslint c [eslint-config-next](https://npmjs.com/package/eslint-config-next);
 - husky;
 - prettier;
 
