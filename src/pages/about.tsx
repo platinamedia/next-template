@@ -1,4 +1,5 @@
 import { MainLayout } from "@/layouts/MainLayout";
+
 import { Page } from "@/types/Page";
 
 const AboutPage: Page = () => {

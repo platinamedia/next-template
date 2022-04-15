@@ -1,4 +1,5 @@
 import { AppProps } from "next/app";
+
 import { Page } from "@/types/Page";
 
 type MyAppProps = AppProps & {
