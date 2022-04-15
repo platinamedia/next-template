@@ -1,9 +1,16 @@
 # next-template
 
+## Установка
+
+### [degit](https://github.com/Rich-Harris/degit)
+
+```bash
+npx degit platinamedia/next-template ./path/to/my-app
+```
+
 ## Технологии
 
 - TypeScript;
-- tailwindcss;
 - eslint with [eslint-config-next](https://npmjs.com/package/eslint-config-next);
 - husky;
 - prettier;
