@@ -9,19 +9,19 @@ npx degit platinamedia/next-template ./path/to/my-app
 ```
 
 ```bash
-yarn
+npm i
 ```
 
 ## Запуск ДЕВ-окружения
 
 ```bash
-yarn dev
+npm run dev
 ```
 
 ## Сборка для ПРОДа
 
 ```bash
-yarn build
+npm run build
 ```
 
 ## Технологии
