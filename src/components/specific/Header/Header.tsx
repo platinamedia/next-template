@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Navlink } from "../Navlink";
+import Link from "next/link";
 
 export type HeaderProps = {};
 
@@ -9,8 +9,8 @@ export const Header: React.FC<HeaderProps> = () => {
     <header>
       <h1>My App</h1>
       <nav>
-        <Navlink href="/">Home</Navlink>
-        <Navlink href="/about">About</Navlink>
+        <Link href="/">Home</Link>
+        <Link href="/about">About</Link>
       </nav>
     </header>
   );
