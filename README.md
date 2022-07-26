@@ -12,6 +12,12 @@ npx degit platinamedia/next-template ./path/to/my-app
 npm i
 ```
 
+### Установка `tailwindcss`
+
+```bash
+node scripts/addTailwind.mjs
+```
+
 ## Запуск ДЕВ-окружения
 
 ```bash
