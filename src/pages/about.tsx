@@ -1,4 +1,4 @@
-import { MainLayout } from "@/layouts/MainLayout";
+import { PrimaryLayout } from "@/layouts/PrimaryLayout";
 
 import { Page } from "@/types/Page";
 
@@ -12,6 +12,6 @@ const AboutPage: Page = () => {
 
 AboutPage.title = "About";
 
-AboutPage.getLayout = (page) => <MainLayout>{page}</MainLayout>;
+AboutPage.getLayout = (page) => <PrimaryLayout>{page}</PrimaryLayout>;
 
 export default AboutPage;

@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { MainLayout } from "@/layouts/MainLayout";
+import { PrimaryLayout } from "@/layouts/PrimaryLayout";
 
 import { Page } from "@/types/Page";
 
@@ -17,6 +17,6 @@ const HomePage: Page = () => {
 
 HomePage.title = "Home";
 
-HomePage.getLayout = (page) => <MainLayout>{page}</MainLayout>;
+HomePage.getLayout = (page) => <PrimaryLayout>{page}</PrimaryLayout>;
 
 export default HomePage;
