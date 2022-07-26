@@ -15,8 +15,6 @@ const HomePage: Page = () => {
   );
 };
 
-HomePage.title = "Home";
-
 HomePage.getLayout = (page) => <PrimaryLayout>{page}</PrimaryLayout>;
 
 export default HomePage;

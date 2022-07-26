@@ -1,3 +1,5 @@
+import React from "react";
+
 import { AppProps } from "next/app";
 
 import { Page } from "@/types/Page";
@@ -7,9 +9,10 @@ type MyAppProps = AppProps & {
 };
 
 function App({ Component, pageProps }: MyAppProps) {
+  const Layout = Component.layout ?? React.Fragment;
   const getLayout = Component.getLayout ?? ((page) => page);
 
-  return <div id="app">{getLayout(<Component {...pageProps} />)}</div>;
+  return <Layout>{getLayout(<Component {...pageProps} />)}</Layout>;
 }
 
 export default App;

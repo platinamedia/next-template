@@ -10,8 +10,6 @@ const AboutPage: Page = () => {
   );
 };
 
-AboutPage.title = "About";
-
 AboutPage.getLayout = (page) => <PrimaryLayout>{page}</PrimaryLayout>;
 
 export default AboutPage;
