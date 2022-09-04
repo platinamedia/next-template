@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Header } from "@/components/specific/Header";
+import { Header } from "@/components/common/Header";
 
 export type PrimaryLayoutProps = {
   children?: React.ReactNode;
