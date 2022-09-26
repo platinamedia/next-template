@@ -10,7 +10,6 @@ export const Header: React.FC<HeaderProps> = () => {
       <h1>My App</h1>
       <nav>
         <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
       </nav>
     </header>
   );
