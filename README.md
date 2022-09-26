@@ -37,16 +37,7 @@ npm run build
 - husky;
 - prettier;
 
-## Структура
-
-Исходный код идёт в [./src](./src) директории.
-
-- [src/components](./src/components) - React компоненты;
-  - [src/components/common](./src/components/common) - Компоненты созданные для абстракции больших кусков кода;
-  - [src/components/ui](./src/components/ui) - Компоненты используемые во всём приложении;
-- [src/layouts](./src/layouts) - Компоненты, представляющие шаблоны страниц [Next.js docs](https://nextjs.org/docs/basic-features/layouts);
-- [src/pages](./src/pages);
-- [src/types](./src/types) - Глобальные TypeScript типы;
+## [Структура](https://github.com/platinamedia/frontend_dock)
 
 ## Рекомендации
 
