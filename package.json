@@ -6,9 +6,9 @@
     "prepare": "husky install",
     "format": "prettier -w src",
     "check-format": "prettier --check src",
-    "dev": "cross-env NODE_ENV=development next dev",
-    "build": "cross-env NODE_ENV=production next build",
-    "start": "cross-env NODE_ENV=production next start",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "lint": "next lint",
     "analyze": "ANALYZE=1 npm run build"
   },
@@ -16,15 +16,14 @@
     "clsx": "^1.2.1",
     "next": "^12.3.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "@next/bundle-analyzer": "^12.3.1"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^12.3.1",
     "@trivago/prettier-plugin-sort-imports": "^3.2.0",
     "@types/node": "^17.0.24",
     "@types/react": "^18.0.5",
     "@types/react-dom": "^18.0.1",
-    "cross-env": "^7.0.3",
     "eslint": "^8.24.0",
     "eslint-config-next": "^12.3.1",
     "husky": "^8.0.0",
