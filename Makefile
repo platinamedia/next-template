@@ -14,7 +14,8 @@ start:
 stop:
 	docker stop $(project_name)
 
-remove:
+clean:
 	docker rm -f $(project_name)
+	docker rmi $(project_name)
 
 rebuild: build run
