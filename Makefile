@@ -1,6 +1,8 @@
 project_name = next-app
 port = 3000
 
+rebuild: build run
+
 build:
 	docker build -t $(project_name) .
 
@@ -17,5 +19,3 @@ stop:
 clean:
 	docker rm -f $(project_name)
 	docker rmi $(project_name)
-
-rebuild: build run
