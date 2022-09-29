@@ -16,3 +16,5 @@ stop:
 
 remove:
 	docker rm -f $(project_name)
+
+rebuild: build run
