@@ -21,13 +21,27 @@ node scripts/addTailwind.mjs
 ## Запуск ДЕВ-окружения
 
 ```bash
-npm run dev
+make dev # или npm run dev
 ```
 
 ## Сборка для ПРОДа
 
+### Сборка и запуск в одной команде
+
 ```bash
-npm run build
+make
+```
+
+### Только сборка
+
+```bash
+make build
+```
+
+### Только запуск
+
+```bash
+make run
 ```
 
 ## Технологии
@@ -45,3 +59,17 @@ npm run build
 
 - [vscode](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 - [vim](https://github.com/editorconfig/editorconfig-vim)
+
+## Другие комманды в `Makefile`
+
+### Остановка запущенного контейнера
+
+```bash
+make stop
+```
+
+### Удаление контейнера и образа
+
+```bash
+make clean
+```
