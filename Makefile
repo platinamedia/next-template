@@ -1,21 +1,21 @@
-project_name = next-app
-port = 3000
+NAME ?= next-app
+PORT ?= 3000
 
 rebuild: build run
 
 build:
-	docker build -t $(project_name) .
+	docker build -t $(NAME) .
 
 run:
-	docker rm -f $(project_name)
-	docker run -d -p $(port)\:3000 --name $(project_name) -i $(project_name)
+	docker rm -f $(NAME)
+	docker run -d -p $(PORT)\:3000 --name $(NAME) -i $(NAME)
 
 start:
-	docker start $(project_name)
+	docker start $(NAME)
 
 stop:
-	docker stop $(project_name)
+	docker stop $(NAME)
 
 clean:
-	docker rm -f $(project_name)
-	docker rmi $(project_name)
+	docker rm -f $(NAME)
+	docker rmi $(NAME)
