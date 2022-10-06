@@ -16,6 +16,9 @@ start:
 stop:
 	docker stop $(NAME)
 
+dev:
+	npm run dev
+
 clean:
 	docker rm -f $(NAME)
 	docker rmi $(NAME)
