@@ -18,7 +18,21 @@ npm i
 node scripts/addTailwind.mjs
 ```
 
+## Использование команды `make`
+
+По умолчанию, приложение будет запущено на 3000-ом порте, но ты можешь передать параметр PORT с любым другим значением.
+
+```bash
+make PORT=8080
+```
+
 ## Запуск ДЕВ-окружения
+
+```bash
+make dev
+```
+
+или используя npm
 
 ```bash
 npm run dev
@@ -26,8 +40,22 @@ npm run dev
 
 ## Сборка для ПРОДа
 
+### Сборка и запуск в одной команде
+
 ```bash
-npm run build
+make
+```
+
+### Только сборка
+
+```bash
+make build
+```
+
+### Только запуск
+
+```bash
+make run
 ```
 
 ## Технологии
@@ -45,3 +73,17 @@ npm run build
 
 - [vscode](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 - [vim](https://github.com/editorconfig/editorconfig-vim)
+
+## Другие комманды в `Makefile`
+
+### Остановка запущенного контейнера
+
+```bash
+make stop
+```
+
+### Удаление контейнера и образа
+
+```bash
+make clean
+```
