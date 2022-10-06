@@ -21,7 +21,13 @@ node scripts/addTailwind.mjs
 ## Запуск ДЕВ-окружения
 
 ```bash
-make dev # или npm run dev
+make dev
+```
+
+или используя npm
+
+```bash
+npm run dev
 ```
 
 ## Сборка для ПРОДа
