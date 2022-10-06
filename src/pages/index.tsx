@@ -13,6 +13,10 @@ const HomePage: Page = () => {
       <Link href="https://github.com/tsivinsky/next-template" passHref>
         <a>GitHub</a>
       </Link>
+
+      <div>
+        <Link href="/about">to about page</Link>
+      </div>
     </div>
   );
 };
