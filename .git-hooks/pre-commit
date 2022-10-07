@@ -1,10 +1,8 @@
 #! /bin/sh
 
-npm run check-format
-
+npx lint-staged
 status="$?"
-
 if [[ "$status" == "1" ]]; then
-  echo "Prettier found ugly code. can't commit that."
+  echo "lint-staged found some errors in your code; please fix them :)"
   exit 1
 fi
