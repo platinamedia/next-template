@@ -19,7 +19,7 @@
     "^@/(layouts|components)/(.*)$",
     "^@/pages/(.*)$",
     "^@/types/(.*)$",
-    "^@/images/(.*)$",
+    "^@/(images|styles)/(.*)$",
     "^[./]"
   ],
   "importOrderSeparation": true,
