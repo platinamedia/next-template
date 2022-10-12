@@ -1,3 +1,5 @@
+// for code thanks to create-t3-app: https://github.com/t3-oss/create-t3-app
+//
 import { ZodFormattedError } from "zod";
 
 import { clientEnv, clientSchema } from "./schema";
