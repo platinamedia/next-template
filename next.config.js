@@ -1,3 +1,5 @@
+const path = require("path");
+
 const withBundleAnalyzer = require("@next/bundle-analyzer")({
   enabled: process.env.ANALYZE === "1",
 });
@@ -9,6 +11,9 @@ const nextConfig = {
     removeConsole: {
       exclude: ["error"],
     },
+  },
+  sassOptions: {
+    includePaths: [path.join(__dirname, "src/styles")],
   },
 };
 

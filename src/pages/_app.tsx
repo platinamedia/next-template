@@ -6,6 +6,8 @@ import "@/env";
 
 import { Page } from "@/types/Page";
 
+import "@/styles/app.scss";
+
 type MyAppProps = AppProps & {
   Component: Page;
 };
