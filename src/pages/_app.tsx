@@ -2,7 +2,7 @@ import React from "react";
 
 import { AppProps } from "next/app";
 
-import "@/env/client";
+import "@/env";
 
 import { Page } from "@/types/Page";
 
