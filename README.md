@@ -12,12 +12,6 @@ npx degit platinamedia/next-template ./path/to/my-app
 npm i
 ```
 
-### Установка `tailwindcss`
-
-```bash
-node scripts/addTailwind.mjs
-```
-
 ## Использование команды `make`
 
 По умолчанию, приложение будет запущено на 3000-ом порте, но ты можешь передать параметр PORT с любым другим значением.
@@ -66,7 +60,6 @@ make run
 
 - TypeScript;
 - eslint c [eslint-config-next](https://npmjs.com/package/eslint-config-next);
-- husky;
 - prettier;
 
 ## [Структура](https://github.com/platinamedia/frontend_dock)
