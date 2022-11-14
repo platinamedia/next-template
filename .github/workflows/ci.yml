@@ -10,6 +10,8 @@ jobs:
   ci:
     name: Check formatting with Prettier
     runs-on: ubuntu-latest
+    env:
+      NEXT_PUBLIC_API_URL: CI
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
