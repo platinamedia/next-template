@@ -8,7 +8,7 @@ on:
 
 jobs:
   ci:
-    name: Check formatting with Prettier
+    name: CI
     runs-on: ubuntu-latest
     env:
       NEXT_PUBLIC_API_URL: CI
