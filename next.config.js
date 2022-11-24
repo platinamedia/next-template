@@ -5,11 +5,12 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 /** @type {import("next").NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  compiler: {
-    removeConsole: {
-      exclude: ["error"],
-    },
-  },
 };
+
+if (process.env.NODE_ENV === "production") {
+  Object.assign(nextConfig, {
+    compiler: { removeConsole: { exclude: ["error"] } },
+  });
+}
 
 module.exports = withBundleAnalyzer(nextConfig);
