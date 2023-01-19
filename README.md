@@ -12,11 +12,9 @@ npx degit platinamedia/next-template ./path/to/my-app
 npm i
 ```
 
-### Установка `tailwindcss`
+## Положение проекта
 
-```bash
-node scripts/addTailwind.mjs
-```
+Проект пока не начался )))
 
 ## Использование команды `make`
 
@@ -66,10 +64,45 @@ make run
 
 - TypeScript;
 - eslint c [eslint-config-next](https://npmjs.com/package/eslint-config-next);
-- husky;
 - prettier;
 
 ## [Структура](https://github.com/platinamedia/frontend_dock)
+
+### Сервера
+
+**Пока пусто**
+
+### Тестовые аккаунты
+
+```
+test@yandex.ru
+123456
+```
+
+### Размеры экранов
+
+- `1500 - 1200px` для 2k мониторов
+- `1199 - 1025px` для средних мониторов
+- `1024 - 768px` для планшетной версии
+- `767 - 320px` для телефонов
+
+### `npm` скрипты
+
+#### Анализ проекта
+
+```bash
+npm run analyze
+```
+
+#### Форматирование всего проекта с prettier
+
+```bash
+npm run format
+```
+
+### Полезные сервисы
+
+Иконки - [phosphoricons](https://phosphoricons.com)
 
 ## Рекомендации
 
