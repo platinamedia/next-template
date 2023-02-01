@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "prepare": "git config --local core.hooksPath ./.git-hooks",
+    "prepare": "node ./setup-hooks.js",
     "format": "prettier -w src",
     "check-format": "prettier --check src",
     "dev": "next dev",
