@@ -3,7 +3,8 @@ ARG NODE_VERSION
 FROM node:16-alpine AS deps
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
-COPY package.json package-lock.json ./
+COPY package.json package-lock.json setup-hooks.js ./
+ENV NODE_ENV production
 RUN npm install
 
 # Rebuild the source code only when needed
