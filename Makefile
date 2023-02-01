@@ -8,7 +8,7 @@ build:
 
 run:
 	docker rm -f $(NAME)
-	docker run -d -p $(PORT)\:3000 --name $(NAME) -i $(NAME)
+	docker run --restart unless-stopped -d -p $(PORT)\:3000 --name $(NAME) -i $(NAME)
 
 start:
 	docker start $(NAME)
