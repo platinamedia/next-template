@@ -4,7 +4,7 @@ import { AppProps } from "next/app";
 
 import "@/env";
 
-import { Page } from "@/types/Page";
+import { Page } from "@/types/page";
 
 type MyAppProps = AppProps & {
   Component: Page;

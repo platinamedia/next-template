@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import { PrimaryLayout } from "@/layouts/PrimaryLayout";
 
-import { Page } from "@/types/Page";
+import { Page } from "@/types/page";
 
 const HomePage: Page = () => {
   return (
