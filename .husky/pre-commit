@@ -1,9 +1,7 @@
 #! /bin/sh
 
 npm run check-format
-
 status="$?"
-
 if [[ "$status" == "1" ]]; then
   echo "Prettier found ugly code. can't commit that."
   exit 1
